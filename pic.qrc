@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Imagens/interior.jpg</file>
+        <file>Imagens/PratoGiratorio.jpg</file>
+        <file>Imagens/combi.png</file>
+        <file>Imagens/def.jpg</file>
+        <file>Imagens/deo.jpg</file>
+        <file>Imagens/fastfood.jpg</file>
+        <file>Imagens/grill.png</file>
+        <file>Imagens/Healthy.jpg</file>
+        <file>Imagens/healthy1.png</file>
+        <file>Imagens/meuprato.jpg</file>
+        <file>Imagens/microwave.jpg</file>
+        <file>Imagens/prato.jpg</file>
+        <file>Imagens/pratogiratorio.jpg</file>
+        <file>Imagens/reaquecer.png</file>
+        <file>Imagens/relog.jpg</file>
+        <file>Imagens/relogio.jpg</file>
+        <file>Imagens/interior1.png</file>
+        <file>Imagens/porta.png</file>
+    </qresource>
+</RCC>

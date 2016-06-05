@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormaMicroondas</class>
+ <widget class="QMainWindow" name="FormaMicroondas">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1023</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FormaMicroondas</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>592</x>
+      <y>0</y>
+      <width>430</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton_EliCheiros">
+     <property name="geometry">
+      <rect>
+       <x>134</x>
+       <y>268</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Elimina Cheiros</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Combinado">
+     <property name="geometry">
+      <rect>
+       <x>135</x>
+       <y>212</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Combinado</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_CozinhaSaudavel">
+     <property name="geometry">
+      <rect>
+       <x>135</x>
+       <y>100</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Cozinha Saudável</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Descongelar">
+     <property name="geometry">
+      <rect>
+       <x>135</x>
+       <y>156</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Descongelar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Aquecimento">
+     <property name="geometry">
+      <rect>
+       <x>264</x>
+       <y>268</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Aquecimento</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_CozinhaRapida">
+     <property name="geometry">
+      <rect>
+       <x>265</x>
+       <y>212</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Comida Rapida</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Grill">
+     <property name="geometry">
+      <rect>
+       <x>265</x>
+       <y>156</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Grill</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_OMeuPrato">
+     <property name="geometry">
+      <rect>
+       <x>265</x>
+       <y>100</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>O Meu Prato</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Stop">
+     <property name="geometry">
+      <rect>
+       <x>138</x>
+       <y>443</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Stop/Eco</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Start">
+     <property name="geometry">
+      <rect>
+       <x>303</x>
+       <y>443</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Start/+30s</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBotton_abrirFecharPorta">
+     <property name="geometry">
+      <rect>
+       <x>199</x>
+       <y>473</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Abrir/Fechar Porta</string>
+     </property>
+    </widget>
+    <widget class="QDial" name="dial">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>360</y>
+       <width>91</width>
+       <height>90</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 170, 170);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Relogio">
+     <property name="geometry">
+      <rect>
+       <x>325</x>
+       <y>404</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_PratoGiratorio">
+     <property name="geometry">
+      <rect>
+       <x>155</x>
+       <y>404</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_descongelar">
+     <property name="geometry">
+      <rect>
+       <x>165</x>
+       <y>128</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/def.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_pratoGira">
+     <property name="geometry">
+      <rect>
+       <x>146</x>
+       <y>377</y>
+       <width>40</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/prato.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_eliminacaoCheiros">
+     <property name="geometry">
+      <rect>
+       <x>168</x>
+       <y>241</y>
+       <width>47</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/deo.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_grill">
+     <property name="geometry">
+      <rect>
+       <x>315</x>
+       <y>129</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/grill.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_relogio">
+     <property name="geometry">
+      <rect>
+       <x>321</x>
+       <y>377</y>
+       <width>30</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/relogio.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_combi">
+     <property name="geometry">
+      <rect>
+       <x>175</x>
+       <y>188</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/combi.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_aquecimento">
+     <property name="geometry">
+      <rect>
+       <x>294</x>
+       <y>241</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/reaquecer.png</pixmap>
+     </property>
+    </widget>
+    <widget class="Line" name="line_6">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>0</y>
+       <width>5</width>
+       <height>510</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(104, 104, 104);</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Microwave">
+     <property name="geometry">
+      <rect>
+       <x>201</x>
+       <y>328</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(20, 20, 34);
+  font-family: Arial;
+  color: #ffffff;
+
+  text-decoration: none;
+border-style: outset;
+    border-width: 1px;
+    border-radius: 10px;
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Microwave</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_microwave">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>301</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/microwave.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_fastfood">
+     <property name="geometry">
+      <rect>
+       <x>308</x>
+       <y>190</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/fastfood.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="lcd">
+     <property name="geometry">
+      <rect>
+       <x>215</x>
+       <y>14</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="midLineWidth">
+      <number>1</number>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>74</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/healthy1.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>297</x>
+       <y>81</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="pic.qrc">:/Imagens/meuprato.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_CozinhaSaudavel">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>68</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+border-color: rgb(85, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_OMeuPrato">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>69</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+border-color: rgb(85, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_Descongelar">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>123</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+border-color: rgb(85, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_Grill">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>124</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+border-color: rgb(85, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_Combinado">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>180</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+border-color: rgb(85, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_ComidaRapida">
+     <property name="geometry">
+      <rect>
+       <x>291</x>
+       <y>180</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+border-color: rgb(85, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_EliminacaoCheiros">
+     <property name="geometry">
+      <rect>
+       <x>158</x>
+       <y>236</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+border-color: rgb(85, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_Aquecimento">
+     <property name="geometry">
+      <rect>
+       <x>289</x>
+       <y>236</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+border-color: rgb(85, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_Microwave">
+     <property name="geometry">
+      <rect>
+       <x>222</x>
+       <y>295</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-style: outset;
+    border-width: 2px;;
+    border-radius: 10px;
+border-color: rgb(85, 170, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <zorder>frame_Microwave</zorder>
+    <zorder>frame_Aquecimento</zorder>
+    <zorder>frame_EliminacaoCheiros</zorder>
+    <zorder>frame_ComidaRapida</zorder>
+    <zorder>frame_Combinado</zorder>
+    <zorder>frame_Grill</zorder>
+    <zorder>frame_Descongelar</zorder>
+    <zorder>frame_OMeuPrato</zorder>
+    <zorder>frame_CozinhaSaudavel</zorder>
+    <zorder>pushButton_EliCheiros</zorder>
+    <zorder>pushButton_Combinado</zorder>
+    <zorder>pushButton_CozinhaSaudavel</zorder>
+    <zorder>pushButton_Descongelar</zorder>
+    <zorder>pushButton_Aquecimento</zorder>
+    <zorder>pushButton_CozinhaRapida</zorder>
+    <zorder>pushButton_Grill</zorder>
+    <zorder>pushButton_OMeuPrato</zorder>
+    <zorder>pushButton_Stop</zorder>
+    <zorder>pushButton_Start</zorder>
+    <zorder>pushBotton_abrirFecharPorta</zorder>
+    <zorder>dial</zorder>
+    <zorder>pushButton_Relogio</zorder>
+    <zorder>pushButton_PratoGiratorio</zorder>
+    <zorder>label_descongelar</zorder>
+    <zorder>label_pratoGira</zorder>
+    <zorder>label_eliminacaoCheiros</zorder>
+    <zorder>label_grill</zorder>
+    <zorder>label_relogio</zorder>
+    <zorder>label_combi</zorder>
+    <zorder>label_aquecimento</zorder>
+    <zorder>line_6</zorder>
+    <zorder>pushButton_Microwave</zorder>
+    <zorder>label_microwave</zorder>
+    <zorder>label_fastfood</zorder>
+    <zorder>lcd</zorder>
+    <zorder>label</zorder>
+    <zorder>label_2</zorder>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>601</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>-2</x>
+      <y>420</y>
+      <width>601</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>20</y>
+      <width>80</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_micro_interior">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>41</y>
+      <width>591</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pic.qrc">:/Imagens/interior1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_porta">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>690</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pic.qrc">:/Imagens/porta.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="pic.qrc"/>
+ </resources>
+ <connections/>
+</ui>
